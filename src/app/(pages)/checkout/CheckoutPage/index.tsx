@@ -151,7 +151,7 @@ export const CheckoutPage: React.FC<{
         <Fragment>
           <h3 className={classes.payment}>Payment Details</h3>
           <p className={classes.demoCard}>
-            Demo card number: 4242 4242 4242 4242 (any expiration date in the furture and csv)
+            Demo card number: 4242 4242 4242 4242 (any expiration date in the future and csv)
           </p>
           {error && <p>{`Error: ${error}`}</p>}
           <Elements
